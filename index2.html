@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang = "en-us">
+<head>
+	<title>Shopping List</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style2.css">
+</head>
+<body>
+	<div id="page">
+	<h1 id="header">List Buddy</h1>
+	<h2>Groceries <span id="counter">4</span></h2>
+	<ul>
+	<li id="one" class="hot"><em>fresh</em> figs</li>
+	<li id="two" class="hot">pine nuts</li>
+	<li id="three" class="hot">honey</li>
+	<li id="four" class="hot">balsamic vinegar</li>
+	</ul>
+	</div>
+	<div id="newItemButton"><button href="#" id="showForm">NEW ITEM</button></div>
+	<form id="newItemForm">
+	<input type="text" id="itemDescription" placeholder="Item Name..." />
+	<input type="submit" id="addButton" value="add" />
+	</form>
+	<div class="info">
+	<h3>How to Use this Website:</h3>
+	
+	<p class="infobox" id="infobox">Each item in the list has one of three colour codes. 
+	<br><br><span class="hotexp">Red</span> indicates an important item, <span class="coolexp">teal</span> indicates a less important one, 
+	and <span class="comexp">grey</span> indicates a finished item.
+	<br><br>To add a new item, click the new item button and press add once you have typed in the entry.
+	<br><br>Each item originally appears as red. To change the importance, tap once for teal, twice for grey, and thrice to remove the item.</p>
+	
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+	integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+	crossorigin="anonymous"></script>
+	<script src="script2.js"></script>
+</body>
+</html>
+	
